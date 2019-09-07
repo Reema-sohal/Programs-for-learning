@@ -11,9 +11,8 @@ def plusMinus(arr)
         else i == 0
             zeros += 1
         end
-    end       
+    end
     puts '%.6f' % (positive_no/n)
     puts '%.6f' % (negative_no/n)
     print '%.6f' % (zeros/n)
-          
 end
